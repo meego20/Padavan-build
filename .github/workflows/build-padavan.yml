@@ -33,7 +33,7 @@ jobs:
     - name: Clone source code
       run: |
         git clone --depth=1 https://github.com/meego20/rt-n56u.git
-        cd /opt/rt-n56u/toolchain-mipsel
+        cd /rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
     - name: Build Firmware
